@@ -8,8 +8,8 @@
           
         }
 
-        hasil += '\n'
-        
-        
-    }
+        hasil += '\n'       
+
+}    
     console.log(hasil)
+ 
