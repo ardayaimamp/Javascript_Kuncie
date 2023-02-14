@@ -1,4 +1,4 @@
-function himbuhan(a){
+ function himbuhan(a){
     if (a > 1000) {
       return "input tidak valid";
     } else if (a == 1000 ){

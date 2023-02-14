@@ -17,5 +17,3 @@ function countKata(str) {
 }
 
 countKata("hello world")
-countKata("ardaya imam pratama")
-countKata("kuncie")
