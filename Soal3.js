@@ -1,15 +1,16 @@
-
-     let a = "KUNCIEKUNCIEKUNCIE"
-     let n = 8
-    hasil = ''
-    for (let i = 0; i < n; i++){
-        for (let j = 0; j <= i; j++) {
-           hasil = hasil + a[j]
-          
+function segitiga2(panjang) {
+    let a = "Kunciekunciekuncie"
+    let hasil = '';
+    for (let i = 0 ; i < panjang ; i++) {
+        for (let j = 0; j < i+1 ; j++) {
+            hasil += a[j] ;
         }
-
-        hasil += '\n'       
-
-}    
-    console.log(hasil)
+        hasil += '\n';
+    }
+    return hasil;
+}
+console.log(segitiga2(6));
+console.log(segitiga2(3));
+console.log(segitiga2(8));
+console.log(segitiga2(12));
  
